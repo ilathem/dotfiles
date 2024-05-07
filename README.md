@@ -17,7 +17,7 @@ System configuration
 ### ubuntu:
 
 1. `sudo apt update && sudo apt upgrade`
-2. `sudo apt install neovim zsh stow`
+2. `sudo apt install neovim zsh stow gcc`
 
 ## research
 
