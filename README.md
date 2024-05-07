@@ -2,11 +2,15 @@
 
 System configuration
 
+## applications
+- [stow](https://www.gnu.org/software/stow/)
+- [neovim](https://github.com/neovim/neovim)
+- [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
 ## usage
 
 - clone the repo to `$HOME`
-- use [stow](https://www.gnu.org/software/stow/) to choose which configuration you want
-    - ex: `stow nvim`
+- use stow to choose which configuration you want
 
 ## research
 
