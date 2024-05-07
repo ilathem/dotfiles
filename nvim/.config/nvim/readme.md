@@ -13,6 +13,8 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 ## Initial setup:
 
 - [install packer](https://github.com/wbthomason/packer.nvim?tab=readme-ov-file#quickstart)
+- go to packer.lua, run `:so` to source it, then `:PackerSync` twice to install packages
+- also install a C compiler (maybe `gcc`) for treesitter to work
 
 ## Notes
 
