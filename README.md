@@ -1,6 +1,6 @@
 # dotfiles
 
-System configuration
+system config using symlinks
 
 ## applications
 - [stow](https://www.gnu.org/software/stow/)
