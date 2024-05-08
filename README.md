@@ -9,7 +9,7 @@ system config using symlinks
 
 ## usage
 
-- clone the repo to `$HOME` with `git clone --recursive git@github.com:ilathem/dotfiles.git` (recursive will include the submodules)
+- clone the repo to `$HOME` with `git clone --recursive` (recursive will include the submodules)
 - use stow to choose which configuration you want (ex: `stow neovim` from dotfiles directory)
 
 ## from fresh install:
