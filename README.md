@@ -10,7 +10,7 @@ System configuration
 ## usage
 
 - clone the repo to `$HOME`
-- use stow to choose which configuration you want
+- use stow to choose which configuration you want (ex: `stow neovim` from dotfiles directory)
 
 ## from fresh install:
 
@@ -18,6 +18,7 @@ System configuration
 
 1. `sudo apt update && sudo apt upgrade`
 2. `sudo apt install neovim zsh stow gcc`
+3. follow usage steps
 
 ## research
 
