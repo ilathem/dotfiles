@@ -79,8 +79,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  fzf
   git 
   z 
+  zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -112,34 +114,6 @@ export EDITOR='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# f "git commit message"
-# git add all, git commit all with message 
-# chose "f" because it's on the home row and the sensible aliases are all taken
-function f() {
-  gaa &&
-  gcam $1 &&
-  gp
-}
-# for creating new files
-alias t="touch"
-# open visual studio code
-alias c="code"
-# open this file in neovim
-alias z="nvim ~/.zshrc"
-# open nvim config
-alias n="cd ~/.config/nvim && nvim ."
-# open explorer in specified directories
-# or this directory if none specified
-function e(){
-  if [[ $# > 0 ]] then
-    for var in "$@"
-    do 
-      explorer.exe "$var"
-    done
-    else explorer.exe .
-  fi
-}
-
 # Manual option of installing powerlevel10k theme into zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
@@ -148,6 +122,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # Add keybindings for fzf
 source ~/fzf/key-bindings.zsh
+source ~/fzf/completion.zsh
 
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
