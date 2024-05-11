@@ -81,8 +81,7 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
   fzf
   git 
-  z 
-  zsh-vi-mode
+#  zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
