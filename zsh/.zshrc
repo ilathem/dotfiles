@@ -1,3 +1,5 @@
+# print pretty neofetch on terminal start
+neofetch | lolcat -r -b
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -81,7 +83,7 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
   fzf
   git 
-#  zsh-vi-mode
+ zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
