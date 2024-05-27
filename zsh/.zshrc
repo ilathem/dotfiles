@@ -84,6 +84,7 @@ plugins=(
   fzf
   git 
   zsh-vi-mode
+  z
 )
 
 source $ZSH/oh-my-zsh.sh
